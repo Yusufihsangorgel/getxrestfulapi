@@ -1,0 +1,28 @@
+name: getxrestfulapi
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.0-255.2.beta <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  #state management
+  get: 4.6.5
+  #http request
+  dio: ^4.0.6
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+  #model
+  freezed: any
+  build_runner: any
+  json_serializable: any
+
+flutter: 
+  uses-material-design: true
+
