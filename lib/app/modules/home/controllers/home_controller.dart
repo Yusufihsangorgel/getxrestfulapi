@@ -25,6 +25,7 @@ class HomeController extends GetxController {
       // Eğer data null ise
       apiCallStatus = ApiCallStatus.error; // error durumuna getiriyoruz
       print("resmi tatiller getirilemedi");
+      update();
     }
   }
 
